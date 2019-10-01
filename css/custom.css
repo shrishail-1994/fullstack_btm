@@ -1,0 +1,53 @@
+.navbar-brand{
+background:url('../images/sprites.png');
+display: inline-block;
+width: 130px;
+height: 30px;
+background-position: 0 -380px;
+
+
+}
+#section1{
+    background: url('../images/11-59-25-21_1440x480.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+#section1 .bg-light{
+    background: none !important;
+
+}
+.text{
+
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.searchicon{
+    background: url(../images/sprites.png);
+    height:20px;
+    width:70;
+    background-repeat: no-repeat;
+    background-position: -172px 0px;
+    position: relative;
+    z-index: 9999;
+    display: inline-block;
+    left: -281px;
+    top: 39px;
+}
+.input#search{
+    position: relative;
+padding:0px 17px 0px 30px !important;   
+}
+.dropdown
+{
+
+    position: absolute;
+    right: 14px;
+    top: 112px;
+
+}
